@@ -1,7 +1,7 @@
 import express from 'express';
-const router = express.Router();
 import * as categoryController from '../controllers/categoryController.js';
 import { adminOnly, tokenVerify } from '../Middleware/authMiddleware.js';
+const router = express.Router();
 
 // @route   POST /api/categories/add-category
 router.post('/add-category', tokenVerify, adminOnly, categoryController.createCategory);
