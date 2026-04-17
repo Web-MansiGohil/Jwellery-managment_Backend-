@@ -6,7 +6,7 @@ import {
     updateCoupon,
     deleteCoupon,
     applyCoupon
-} from '../controllers/couponController.js';
+} from "../controllers/couponController.js";
 import { tokenVerify, adminOnly } from '../Middleware/authMiddleware.js';
 
 const router = express.Router();
