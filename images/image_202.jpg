@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <circle cx="12" cy="11.37" r="9.76" style="fill: none; stroke: #832729; stroke-linecap: round; stroke-linejoin: round; stroke-width: .7px;"/>
+  <circle cx="12" cy="11.37" r="7.78" style="fill: none; stroke: #832729; stroke-linecap: round; stroke-linejoin: round; stroke-width: .7px;"/>
+  <path d="m11.87,14.32l-2.21,1.16c-.21.11-.45-.07-.41-.3l.42-2.46c.02-.09-.01-.19-.08-.25l-1.79-1.74c-.17-.16-.08-.45.16-.48l2.47-.36c.09-.01.17-.07.21-.15l1.1-2.24c.1-.21.4-.21.51,0l1.1,2.24c.04.08.12.14.21.15l2.47.36c.23.03.32.32.16.48l-1.79,1.74c-.07.06-.1.16-.08.25l.42,2.46c.04.23-.2.41-.41.3l-2.21-1.16c-.08-.04-.18-.04-.26,0Z" style="fill: #832729; stroke-width: 0px;"/>
+  <path d="m19.99,20.21s1.18-.29,1.47-1.77c0,0,.36,1.35,1.59,1.71,0,0-1.49.74-1.54,1.73,0,0-.05-1.26-1.52-1.67Z" style="fill: none; stroke: #832729; stroke-linecap: round; stroke-linejoin: round; stroke-width: .7px;"/>
+  <path d="m.95,2.61s1.15-.29,1.44-1.73c0,0,.36,1.32,1.55,1.67,0,0-1.45.73-1.5,1.69,0,0-.05-1.23-1.49-1.63Z" style="fill: none; stroke: #832729; stroke-linecap: round; stroke-linejoin: round; stroke-width: .7px;"/>
+  <path d="m1.51,21.1s1.42-.36,1.78-2.14c0,0,.44,1.64,1.92,2.07,0,0-1.8.9-1.86,2.09,0,0-.06-1.52-1.84-2.02Z" style="fill: none; stroke: #832729; stroke-linecap: round; stroke-linejoin: round; stroke-width: .7px;"/>
+</svg>
