@@ -1,5 +1,5 @@
 import express from 'express';
-import { deleteUser, forgetPasswordController, getAllUser, resetPasswordController, updateUserController, userRegisterController, verifyOtpController, getUserProfileController, updateUserProfileController } from '../Controllers/authController.js';
+import { deleteUser, forgetPasswordController, getAllUser, resetPasswordController, updateUserController, userRegisterController, verifyOtpController, getUserProfileController, updateUserProfileController } from '../controllers/authController.js';
 import { adminOnly, tokenVerify } from '../Middleware/authMiddleware.js';
 import { upload } from '../Middleware/multerMidleware.js';
 
