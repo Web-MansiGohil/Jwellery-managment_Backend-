@@ -1,6 +1,6 @@
 import express from 'express';
 import { tokenVerify } from '../Middleware/authMiddleware.js';
-import { createAddress, deleteAddress, getAddressById, getAddresses, updateAddress } from '../Controllers/addressController.js';
+import { createAddress, deleteAddress, getAddressById, getAddresses, updateAddress } from '../controllers/addressController.js';
 
 const router = express.Router();
 

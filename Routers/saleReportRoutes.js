@@ -1,6 +1,6 @@
 import express from "express";
-import { getSalesReport, exportCSV } from "../Controllers/saleReportController.js";
-import { getDashboardStats } from "../Controllers/dashboardController.js";
+import { getSalesReport, exportCSV } from "../controllers/saleReportController.js";
+import { getDashboardStats } from "../controllers/dashboardController.js";
 import { tokenVerify, adminOnly } from "../Middleware/authMiddleware.js";
 
 

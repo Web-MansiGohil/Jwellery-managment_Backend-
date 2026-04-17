@@ -1,6 +1,6 @@
 import express from 'express';
 import { tokenVerify } from '../Middleware/authMiddleware.js';
-import { addToWishlist, getWishlist, removeFromWishlist } from '../Controllers/wishlistController.js';
+import { addToWishlist, getWishlist, removeFromWishlist } from '../controllers/wishlistController.js';
 
 const router = express.Router();
 // @route 

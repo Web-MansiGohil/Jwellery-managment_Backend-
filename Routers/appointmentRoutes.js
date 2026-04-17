@@ -1,5 +1,5 @@
 import express from 'express';
-import { createAppointment, getAppointments, getAppointmentById, updateAppointment, deleteAppointment, updateAppointmentStatus } from '../Controllers/appointmentController.js';
+import { createAppointment, getAppointments, getAppointmentById, updateAppointment, deleteAppointment, updateAppointmentStatus } from '../controllers/appointmentController.js';
 import { adminOnly, tokenVerify } from '../Middleware/authMiddleware.js';
 import { upload } from '../Middleware/multerMidleware.js';
 

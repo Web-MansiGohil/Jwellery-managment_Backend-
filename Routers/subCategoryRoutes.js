@@ -1,5 +1,5 @@
 import express from "express";
-import { createSubcategory, deleteSubcategory, getAllSubcategories, getSubcategoryById, updateSubcategory } from "../Controllers/subcategoryController.js";
+import { createSubcategory, deleteSubcategory, getAllSubcategories, getSubcategoryById, updateSubcategory } from "../controllers/subcategoryController.js";
 import { tokenVerify, adminOnly } from "../Middleware/authMiddleware.js";
 
 const router = express.Router();

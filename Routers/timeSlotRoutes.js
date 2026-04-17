@@ -1,11 +1,11 @@
 import express from 'express';
-import { 
-    createTimeSlot, 
-    getTimeSlotsByDate, 
-    deleteTimeSlot, 
-    getAllTimeSlots, 
-    updateTimeSlot 
-} from '../Controllers/timeSlotController.js';
+import {
+    createTimeSlot,
+    getTimeSlotsByDate,
+    deleteTimeSlot,
+    getAllTimeSlots,
+    updateTimeSlot
+} from '../controllers/timeSlotController.js';
 import { adminOnly, tokenVerify } from '../Middleware/authMiddleware.js';
 
 const router = express.Router();

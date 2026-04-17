@@ -1,5 +1,5 @@
 import express from "express";
-import { addOrUpdateReview, getProductReviews, getUserReviews } from "../Controllers/rateController.js";
+import { addOrUpdateReview, getProductReviews, getUserReviews } from "../controllers/rateController.js";
 import { tokenVerify } from "../Middleware/authMiddleware.js";
 
 const router = express.Router();

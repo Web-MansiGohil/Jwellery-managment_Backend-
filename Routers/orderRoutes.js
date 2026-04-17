@@ -1,5 +1,5 @@
 import express from 'express';
-import * as orderController from '../Controllers/orderController.js';
+import * as orderController from '../controllers/orderController.js';
 import { adminOnly, tokenVerify } from '../Middleware/authMiddleware.js';
 
 const router = express.Router();

@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import * as productController from '../Controllers/productController.js';
+import * as productController from '../controllers/productController.js';
 import { tokenVerify, adminOnly } from '../Middleware/authMiddleware.js';
 import { upload } from '../Middleware/multerMidleware.js';
 

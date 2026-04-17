@@ -1,5 +1,5 @@
 import express from "express";
-import { removeBackground, detectJewelryDetails, virtualTryOn, chatWithJewelryExpert } from "../Controllers/aiController.js";
+import { removeBackground, detectJewelryDetails, virtualTryOn, chatWithJewelryExpert } from "../controllers/aiController.js";
 
 const router = express.Router();
 

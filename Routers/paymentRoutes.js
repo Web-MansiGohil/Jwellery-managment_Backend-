@@ -1,4 +1,4 @@
-import { createPaymentIntent, verifyPayment, getAllPayments, getPaymentHistory, getPaymentById, updatePaymentStatus } from "../Controllers/paymentController.js";
+import { createPaymentIntent, verifyPayment, getAllPayments, getPaymentHistory, getPaymentById, updatePaymentStatus } from "../controllers/paymentController.js";
 import { tokenVerify, adminOnly } from '../Middleware/authMiddleware.js';
 import express from "express";
 

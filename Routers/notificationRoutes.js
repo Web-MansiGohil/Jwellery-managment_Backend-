@@ -1,5 +1,5 @@
 import express from 'express';
-import * as notificationController from '../Controllers/notificationController.js';
+import * as notificationController from '../controllers/notificationController.js';
 import { tokenVerify } from '../Middleware/authMiddleware.js';
 
 const router = express.Router();
