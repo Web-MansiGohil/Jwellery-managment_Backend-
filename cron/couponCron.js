@@ -2,14 +2,14 @@ import cron from "node-cron";
 import { Coupon } from "../Models/Coupon.js";
 import { User } from "../Models/User.js";
 import { sendEmail } from "../utils/sendEmail.js";
-import { deactivateExpiredCoupons } from "../Controllers/couponController.js";
+import { deactivateExpiredCoupons } from "../controllers/couponController.js";
 
 
 // Run every day at 08:00 AM
 cron.schedule("0 8 * * *", async () => {
     try {
         console.log("Running daily coupon expiry check...");
-        
+
         // Deactivate any coupons that have expired
         await deactivateExpiredCoupons();
 
